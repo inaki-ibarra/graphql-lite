@@ -1,0 +1,10 @@
+AllCops:
+  Exclude:
+    - Gemfile
+    - config.ru
+
+Documentation:
+  Enabled: false
+
+Layout/EndOfLine:
+  EnforcedStyle: crlf

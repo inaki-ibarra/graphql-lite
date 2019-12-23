@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'base_object'
 require_relative '../mutations/create_user'
 

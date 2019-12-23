@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'base_mutation'
 require_relative '../types/user_type'
 
@@ -10,8 +12,7 @@ module Mutations
     def resolve(name: nil)
       # Save Implementation here
       # Then return the object
-      {id: 2, name: 'John Doe'}
+      { id: 2, name: name }
     end
-    
   end
 end
